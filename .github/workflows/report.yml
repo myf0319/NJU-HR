@@ -7,9 +7,9 @@ on:
       - playground
 
   schedule:
-    - cron: '46 1 * * *'
-    - cron: '23 5 * * *'
-    - cron: '11 10 * * *'
+    - cron: '0 1 * * *'
+    - cron: '0 5 * * *'
+    - cron: '0 10 * * *'
 
 jobs:
   build:
